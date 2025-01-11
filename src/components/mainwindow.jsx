@@ -212,6 +212,7 @@ function MainWindow({ style }) {
                                                     num_retail: prodRNumber
                                                 }]);
                                                 clearData();
+                                                location.reload();
                                             })
                                             .catch((error) => {
                                                 console.error('Error:', error);
