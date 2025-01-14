@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color:#7C93C3;
-
+  background-color:#C4D9FF;
+  height: 100%;
 }
 
 .header {
@@ -17,7 +17,7 @@ body {
   align-items: center;
   font-size: 20pt;
   padding-left: 20px;
-  color: #E1D7B7;
+  color: #1E2A5E;
   font-family: "Roboto Slab", serif;
   font-weight: bold;
 }
@@ -25,7 +25,7 @@ body {
 .container {
   position: relative;
   width: 99%;
-  height: 650px;
+  height: 900px;
   display: flex;
   justify-content: center;
   align-items: center;

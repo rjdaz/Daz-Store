@@ -71,11 +71,12 @@ function MainWindow({ style }) {
                                     addWindow.style.zIndex = "-1";
                                     addWindow.style.opacity = "0";
                                     windUpdate.style.zIndex = "2";
+                                    windUpdate.style.opacity = "1";
 
                                     setSelectedProduct(data);
                                 }}>&#9780;</button>
-                                <p>P-Name: {data.name.toUpperCase()}</p>
-                                <p>Retail: &#8369; {data.retail.toFixed(2)}</p>    
+                                <p>Prod: {data.name.toUpperCase()}</p>
+                                <p>Retail: &#8369;{data.retail.toFixed(2)}</p>    
                             </div>
                         ))}
                     </div>
@@ -234,6 +235,7 @@ function MainWindow({ style }) {
                                 const windUpdate = document.querySelector('.viewData');
 
                                 windUpdate.style.zIndex = "-1";
+                                windUpdate.style.opacity = "0";
                             }}
                         />
                     </div>
